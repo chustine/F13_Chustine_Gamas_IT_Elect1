@@ -62,3 +62,14 @@ npm install -g expo-cli
 expo init Chustine
 cd Chustine 
 npm start
+pkg update
+cd Activity5
+echo "# F19_Mikylla_Sabior_IT_Elect1" >> README.md
+git init
+git commit -m "first commit"
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sabior361-hub/F19_Mikylla_Sabior_IT_Elect1.git
+git push -u origin main
+exit
